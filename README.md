@@ -49,4 +49,6 @@ networks:
 
 ## No diretório do arquivo rode o seguinte comando: docker-compose up -d
 
-## Na url -> http:localhost:19000 estará o kafdrop
+## O Kafdrop estará rodando na porta 19000 
+
+## O Kafka estará rodando na porta 9092
