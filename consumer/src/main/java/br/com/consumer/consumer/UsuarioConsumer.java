@@ -1,15 +1,16 @@
 package br.com.consumer.consumer;
 
 import java.util.concurrent.CompletableFuture;
-
 import javax.enterprise.context.ApplicationScoped;
 import javax.transaction.Transactional;
-
 import org.eclipse.microprofile.reactive.messaging.Incoming;
-
 import br.com.consumer.dto.UsuarioDTO;
 import br.com.consumer.entity.Usuario;
 
+/**
+ * 
+ * Enilson Filho
+ */
 @ApplicationScoped
 public class UsuarioConsumer {
     

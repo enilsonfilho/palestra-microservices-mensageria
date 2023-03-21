@@ -8,6 +8,10 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 
+/**
+ * 
+ * Enilson Filho
+ */
 @Entity
 @Table(name = "usuario")
 public class Usuario extends PanacheEntityBase {

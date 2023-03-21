@@ -1,5 +1,9 @@
 package br.com.consumer.dto;
 
+/**
+ * 
+ * Enilson Filho
+ */
 public class UsuarioDTO {
 
     private String nome;

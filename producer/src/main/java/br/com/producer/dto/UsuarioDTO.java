@@ -1,5 +1,9 @@
 package br.com.producer.dto;
 
+/**
+ * 
+ * Enilson Filho
+ */
 public class UsuarioDTO {
 
     private String nome;
