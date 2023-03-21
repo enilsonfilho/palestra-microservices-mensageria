@@ -1,4 +1,4 @@
-## Para subir o ambiente do kafka e do kafdrop, executes os steps:
+## Para subir o ambiente do kafka e do kafdrop, execute os steps:
 
 ## Crie um arquivo chamado docker-compose.yml
 
