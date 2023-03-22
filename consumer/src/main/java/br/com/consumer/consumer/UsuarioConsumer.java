@@ -22,9 +22,9 @@ public class UsuarioConsumer {
 
         future.whenComplete((result, error) ->{
             if (error == null) {
-                System.out.println("Usuário foi cadastro no banco de dados");
+                System.out.println("Usuário " + usuarioDTO.getNome() + " foi cadastro no banco de dados com sucesso!");
             } else {
-                System.out.println("Problemas ao cadastrar usuário " + error.getMessage());
+                System.out.println("Problemas ao cadastrar usuário: Error: " + error.getMessage());
             }
         });
     }
