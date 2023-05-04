@@ -1,8 +1,8 @@
-## Para subir o ambiente do kafka e do kafdrop, execute os steps:
+### Para subir o ambiente do kafka e do kafdrop, execute os steps:
 
-## Crie um arquivo chamado docker-compose.yml
+### Crie um arquivo chamado docker-compose.yml
 
-## Cole o seguinte script:
+### Cole o seguinte script:
 
 ``` yml
 version: '3'
@@ -47,8 +47,8 @@ networks:
     driver: bridge  
 ```
 
-## No diretório do arquivo rode o seguinte comando: docker-compose up -d
+### No diretório do arquivo rode o seguinte comando: docker-compose up -d
 
-## O Kafdrop estará rodando na porta 19000 
+### O Kafdrop estará rodando na porta 19000 
 
-## O Kafka estará rodando na porta 9092
+### O Kafka estará rodando na porta 9092
