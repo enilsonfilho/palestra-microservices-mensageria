@@ -53,14 +53,18 @@ networks:
 
 No diretório onde o arquivo docker-compose.yml foi criado, execute o seguinte comando:
 
+```
 docker-compose up -d
+```
 
 Isso iniciará os containers Docker para o Kafka e o Kafdrop no modo de execução em segundo plano.
 
 ## Passo 3: Acessar o Kafdrop
 Após a execução bem-sucedida, você poderá acessar o Kafdrop no seu navegador usando o seguinte endereço:
 
+```
 http://localhost:19000
+```
 
 O Kafdrop é uma interface de usuário para visualizar e navegar pelos tópicos e partições do Kafka. Você poderá explorar os detalhes do cluster Kafka e gerenciar as mensagens.
 
